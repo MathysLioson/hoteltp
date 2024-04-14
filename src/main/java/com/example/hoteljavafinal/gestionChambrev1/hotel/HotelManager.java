@@ -1,6 +1,6 @@
 package com.example.hoteljavafinal.gestionChambrev1.hotel;
 
-import com.example.hoteljavafinal.administration.users.RoleAPP;
+import com.example.hoteljavafinal.administration.RoleAPP;
 import com.example.hoteljavafinal.gestionChambrev1.chambre.ChambreEntity;
 import com.example.hoteljavafinal.gestionChambrev1.hotel.exceptions.DroitInsuffisantException;
 import lombok.AllArgsConstructor;
@@ -32,10 +32,10 @@ public class HotelManager {
     }
 
     public List<ChambreEntity> reserverUneChambre(RoleAPP roleAPP, Date dateDebut, Date dateFin, ChambreEntity chambreEntity) throws DroitInsuffisantException {
-        if (roleAPP != RoleAPP.MANAGER) {
-            throw new DroitInsuffisantException();
-        }
         return null;
     }
+    /**
+     * qqun doit porter la charge de vérifier que l'auth est bonne
+     */
 
 }
