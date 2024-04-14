@@ -1,6 +1,5 @@
-package com.example.hoteljavafinal.administration.users;
+package com.example.hoteljavafinal.administration;
 
-import com.example.hoteljavafinal.administration.users.RoleAPP;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +11,7 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "user")
+@Table(name = "users")
 public class UserAPP {
 
     @Id
