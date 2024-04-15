@@ -1,0 +1,8 @@
+On va faire un
+"authenticate manager" c'est lui qui va prendre "le rôle"
+et si la fonction appelé n'est pas de ce rôle alors exception.
+Et ensuite on ira sur le hotelmanager.
+
+Bien se dire c'est qu'on arrive par la route
+ensuite on passe les bonnes valeurs
+ensuite on a le bon retour ou exécution de la commande
